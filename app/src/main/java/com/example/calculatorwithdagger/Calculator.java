@@ -1,6 +1,6 @@
 package com.example.calculatorwithdagger;
 
-//User defined class (so we can add annotations)
+//User defined class (so we can add annotations here)
 
 import javax.inject.Inject;
 
