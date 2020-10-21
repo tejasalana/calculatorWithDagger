@@ -9,5 +9,6 @@ import dagger.Component;
 public interface CalculatorComponent {
 
     void fieldInject(MainActivity mainActivity);
+    void fieldInject(SecondActivity secondActivity);
 
 }

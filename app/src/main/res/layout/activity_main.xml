@@ -43,52 +43,50 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="250dp"
+        android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:layout_below="@+id/editText2"
         android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="100dp"
-        android:textSize="25dp"
-        android:textStyle="normal"
-        android:hint="Result"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
+        android:layout_marginStart="50dp"
         android:layout_marginLeft="50dp"
-        android:layout_marginRight="100dp" />
+        android:layout_marginTop="30dp"
+        android:hint="Result"
+        android:textSize="25dp"
+        android:textStyle="normal" />
 
     <Button
         android:id="@+id/button1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:layout_below="@+id/textView"
-        android:layout_marginTop="40dp"
-        android:text="Addition" />
+        android:layout_marginTop="60dp"
+        android:text="addition" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:layout_below="@+id/button1"
-        android:layout_marginTop="20dp"
-        android:text="Subtraction" />
+        android:layout_marginTop="30dp"
+        android:text="subtraction" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="match_parent"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/button2"
-        android:layout_marginTop="20dp"
-        android:text="Multiplication" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button3"
-        android:layout_marginTop="20dp"
-        android:text="Division" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="155dp"
+        android:layout_marginLeft="154dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="155dp"
+        android:layout_marginRight="157dp"
+        android:layout_marginBottom="70dp"
+        android:text="next" />
 
 </RelativeLayout>
