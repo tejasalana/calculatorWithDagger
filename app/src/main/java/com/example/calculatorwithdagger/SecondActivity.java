@@ -35,7 +35,7 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
             throw new ActivityNotFoundException("Insufficient Intent Extras for Second Activity.....");
         }
 
-        CalculatorComponent calculatorComponent = DaggerCalculatorComponent.create();
+        CalculatorComponent calculatorComponent = ((CalculatorApplication) getApplication()).getCalculatorComponent();
         calculatorComponent.fieldInject(this);
 
         mulButton.setOnClickListener(this);

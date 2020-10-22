@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             editText2.setText(num2.toString());
         }
 
-        CalculatorComponent calculatorComponent = DaggerCalculatorComponent.create();
+        CalculatorComponent calculatorComponent = ((CalculatorApplication) getApplication()).getCalculatorComponent();
         calculatorComponent.fieldInject(this);
 
         addButton.setOnClickListener(this);
